@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quotes</title>
+    <script src="popup.js" defer></script>
+    <style>
+        body{
+            width: 300px;
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 10px;
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(45,24,80,1) 0%, rgba(170,164,212,1) 0%, rgba(162,88,199,1) 48%, rgba(110,9,121,1) 100%, rgba(86,53,150,1) 100%, rgba(79,65,158,1) 100%, rgba(96,34,137,1) 100%, rgba(62,96,179,1) 100%, rgba(52,115,191,1) 100%, rgba(37,143,209,1) 100%, rgba(42,134,203,1) 100%, rgba(0,212,255,1) 100%);       
+        }
+        #quote{
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        button{
+            background-color: #2d1850;
+            color: white;
+            border: none;
+            padding: 8px 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover{
+            background-color: #3d1e70;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>Random Quote</h3>
+    <p id="quote">Click the button to get a quote!</p>
+    <button id="generate">New Quote</button>
+</body>
+</html>
